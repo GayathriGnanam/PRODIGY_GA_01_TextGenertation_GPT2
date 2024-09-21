@@ -1,2 +1,2 @@
 # PRODIGY_GA_01_TextGenertation_GPT2
-To train a model to generate coherent and contextually relevant text based on a given prompt. Starting with GPT-2, a transformer model developed by OpenAI, and to learn how to fine-tune the model on a custom dataset to create text that mimics the style and structure of your training data. 
+This code creates a text generation app using Gradio and GPT-2 from Hugging Face's transformers library. It loads the GPT-2 model and tokenizer, defines a function to generate text completions with beam search, and sets up a Gradio interface for users to input a sentence and receive a coherent continuation. The app provides a simple, interactive way to explore GPT-2's text generation capabilities.
